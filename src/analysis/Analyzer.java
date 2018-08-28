@@ -182,8 +182,7 @@ public class Analyzer {
 	}
 
 	/**
-	 * Sets the total count for Adenine
-	 * @param adenine the adenine to set
+	 * Counts the total for Adenine
 	 */
 	public void countAdenine() {
 		this.adenine = this.countCharacter('a');
@@ -198,8 +197,7 @@ public class Analyzer {
 	}
 
 	/**
-	 * Sets the total count for Cytosine
-	 * @param cytosine the cytosine to set
+	 * Counts the total for Cytosine
 	 */
 	public void countCytosine() {
 		this.cytosine = this.countCharacter('c');
@@ -214,8 +212,7 @@ public class Analyzer {
 	}
 
 	/**
-	 * Sets the count for Guanine
-	 * @param guanine the total number of guanine
+	 * Count the total for Guanine
 	 */
 	public void countGuanine() {
 		this.guanine = this.countCharacter('g');
@@ -230,9 +227,7 @@ public class Analyzer {
 	}
 
 	/**
-	 * Sets the count for thymine.
-	 * 
-	 * @param thymine the total number of thymine
+	 * Count the total for thymine.
 	 */
 	public void countThymine() {
 		this.thymine = this.countCharacter('t');

@@ -30,7 +30,7 @@ relative path name of your input file.
 
 
 ## Development & Technology
-GRSManager is developed using JRE 1.8.0 in Eclipse.
+DNA-Calculator is developed using JRE 1.8.0 in Eclipse.
 
 ## Cited Resources
 - Building Java Programs - Reges & Stepp
