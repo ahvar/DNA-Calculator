@@ -160,11 +160,11 @@ public class Analyzer {
 	 * Prints the count for adenine, cytosine, guanine, and thymine.
 	 */
 	public void printCalculations() {
-		System.out.printf("%s %d %s 2f%% %s", "Total number of Adenine ('A'): " + getAdenine() + ". This is " + getAdenine()/str.length() + "% of the total.\n");
-		System.out.printf("%s %d %s 2f%% %s", "Total number of Cytosine ('C'): " + getCytosine() + ". This is " + getCytosine()/str.length() + "% of the total.\n");
-		System.out.printf("%s %d %s 2f%% %s", "Total number of Guanine ('G'): " + getGuanine() + ". This is " + getGuanine()/str.length() + "% of the total.\n");
-		System.out.printf("%s %d %s 2f%% %s", "Total number of Thymine ('T'): " + getThymine() + ". This is " + getThymine()/str.length() + "% of the total.\n");
-		System.out.printf("%s %d %s 2f%% %s", "Total number of other characters: " + getOther() + ". This is " + getOther()/str.length() + "% of the total.\n");
+		System.out.print("Total number of Adenine ('A'): " + getAdenine() + ". This is " + (((float)getAdenine()/str.length()) * 100) + "% of the total.\n");
+		System.out.print("Total number of Cytosine ('C'): " + getCytosine() + ". This is " + (((float)getCytosine()/str.length()) * 100) + "% of the total.\n");
+		System.out.print("Total number of Guanine ('G'): " + getGuanine() + ". This is " + ((float)getGuanine()/(str.length()) * 100) + "% of the total.\n");
+		System.out.print("Total number of Thymine ('T'): " + getThymine() + ". This is " + (((float)getThymine()/str.length()) * 100) + "% of the total.\n");
+		System.out.println("Total number of other characters: " + getOther() + ". This is " + (((float)getOther()/str.length()) * 100) + "% of the total.\n");
 		System.out.println();
 		System.out.println("The longest consecutive adenine: " + countConsecutive('a'));
 		System.out.println("The longest consecutive cytosine: " + countConsecutive('c'));
